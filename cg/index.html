@@ -94,7 +94,7 @@ body {
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 <script src='https://sdk.crazygames.com/crazygames-sdk-v3.js'></script>
 <script>window.__cgReady=false;window.addEventListener('DOMContentLoaded',async function(){try{await window.CrazyGames.SDK.init();window.__cgReady=true;}catch(e){console.warn('CrazyGames SDK not available',e);}});</script>
-<style>html,body{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;background:#2a160c;overscroll-behavior:none}canvas{touch-action:none}</style>
+<style>html,body{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;background:#2a160c;overscroll-behavior:none}canvas{touch-action:none}@media (orientation:portrait) and (pointer:coarse){body::before{content:"请把手机横过来\A Turn your phone sideways";white-space:pre-line;position:fixed;left:0;top:0;right:0;bottom:0;z-index:9999;background:#2a160c;color:#FFF6E0;font:700 30px sans-serif;display:flex;align-items:center;justify-content:center;text-align:center;line-height:1.6}}</style>
 	</head>
 	<body>
 		<canvas id="canvas">
